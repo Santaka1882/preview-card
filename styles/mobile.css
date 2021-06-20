@@ -1,0 +1,106 @@
+:root {
+  /* Primary colors */
+  --Very-dark-blue: hsl(233, 47%, 7%);
+  --Dark-desaturated-blue: hsl(244, 38%, 16%);
+  --Soft-violet: hsl(277, 64%, 61%);
+
+  /* Neutral colors */
+  --White: hsl(0, 0%, 100%);
+  --Slightly-transparent-white-p: hsla(0, 0%, 100%, 0.75);
+  --Slightly-transparent-white-h: hsla(0, 0%, 100%, 0.6);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: var(--Very-dark-blue);
+}
+
+main {
+  width: 90%;
+  margin: 50px auto 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+h2 {
+  font-size: 2.8rem;
+}
+
+p {
+  color: var(--Slightly-transparent-white-p);
+  font-size: 1.3rem;
+  line-height: 2.4rem;
+}
+
+.image-container {
+  width: 100%;
+  min-height: 247px;
+}
+
+.image-container .image {
+  width: 100%;
+  min-height: 247px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(
+    hsla(277, 79%, 38%, 0.5), 
+    hsl(277, 79%, 38%, 0.5)
+  ), url("../images/image-header-mobile.jpg");
+}
+
+.info {
+  padding: 20px;
+  background: var(--Dark-desaturated-blue);
+  text-align: center;
+  color: white;
+}
+
+.info-title {
+  margin: 5px;
+  margin-bottom: 30px;
+}
+
+.info .info-title h1 {
+  font-size: 2.8rem;
+  margin: 10px;
+}
+
+.info .info-title span {
+  color: var(--Soft-violet);
+}
+
+.info .info-title p {
+  margin-top: 20px;
+}
+
+.info-features {
+  display: flex;
+  margin: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-features .feature {
+  margin: 10px;
+} 
+
+.attribution {
+  text-align: center;
+  color: white;
+}
+
+.attribution a {
+  color: var(--Soft-violet);
+}
