@@ -38,7 +38,7 @@ h2 {
 
 p {
   color: var(--Slightly-transparent-white-p);
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   line-height: 2.4rem;
 }
 
@@ -78,6 +78,10 @@ p {
 
 .info .info-title span {
   color: var(--Soft-violet);
+}
+
+.info-description {
+  
 }
 
 .info .info-title p {

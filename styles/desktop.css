@@ -1,0 +1,36 @@
+main {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  color: var(--Slightly-transparent-white-p);
+  font-size: 1.7rem;
+  line-height: 2.4rem;
+}
+
+.image-container {
+  min-height: 500px;
+}
+
+.image-container .image {
+  min-height: 500px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: unset;
+  padding: 25px 50px;
+  text-align: left;
+}
+
+.info-title {
+  margin: 0px 30px;
+  margin-bottom: 10px;
+}
